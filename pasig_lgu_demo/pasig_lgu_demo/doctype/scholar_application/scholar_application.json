@@ -11,6 +11,7 @@
   "email_address",
   "first_name",
   "last_name",
+  "mobile_number",
   "supporting_document",
   "status",
   "application_date",
@@ -60,11 +61,16 @@
    "fieldname": "processed_date",
    "fieldtype": "Date",
    "label": "Processed Date"
+  },
+  {
+   "fieldname": "mobile_number",
+   "fieldtype": "Data",
+   "label": "Mobile Number"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-11-08 15:52:48.617618",
+ "modified": "2023-11-08 16:29:09.712762",
  "modified_by": "Administrator",
  "module": "Pasig Lgu Demo",
  "name": "Scholar Application",
