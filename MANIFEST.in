@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include pasig_lgu_demo *.css
+recursive-include pasig_lgu_demo *.csv
+recursive-include pasig_lgu_demo *.html
+recursive-include pasig_lgu_demo *.ico
+recursive-include pasig_lgu_demo *.js
+recursive-include pasig_lgu_demo *.json
+recursive-include pasig_lgu_demo *.md
+recursive-include pasig_lgu_demo *.png
+recursive-include pasig_lgu_demo *.py
+recursive-include pasig_lgu_demo *.svg
+recursive-include pasig_lgu_demo *.txt
+recursive-exclude pasig_lgu_demo *.pyc
