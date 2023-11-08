@@ -190,3 +190,12 @@ app_license = "MIT"
 # auth_hooks = [
 #	"pasig_lgu_demo.auth.validate"
 # ]
+
+fixtures = [
+    # export only those records that match the filters from the Role table
+    {"dt": "Role", "filters": [["role_name", "like", "Scholar%"]]},
+    {"dt": "Custom DocPerm","filters": [["role","like","Scholar%"]]},
+    {"dt": "Module Profile", "filters": [["module_profile_name", "like", "Scholar%"]]},
+
+
+]
