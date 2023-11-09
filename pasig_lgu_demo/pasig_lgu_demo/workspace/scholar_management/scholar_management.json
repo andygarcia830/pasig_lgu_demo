@@ -31,7 +31,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Scholar Application",
+   "label": "Scholar Applications List",
    "link_count": 0,
    "link_to": "Scholar Application",
    "link_type": "DocType",
@@ -39,7 +39,7 @@
    "type": "Link"
   }
  ],
- "modified": "2023-11-08 15:55:24.341195",
+ "modified": "2023-11-09 12:22:43.522708",
  "modified_by": "Administrator",
  "module": "Pasig Lgu Demo",
  "name": "Scholar Management",
