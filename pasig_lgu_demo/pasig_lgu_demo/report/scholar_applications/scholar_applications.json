@@ -10,15 +10,16 @@
  "is_standard": "Yes",
  "json": "{}",
  "letter_head": "Xurpas Inc",
- "modified": "2023-11-08 15:40:26.123147",
+ "modified": "2023-11-10 11:11:42.973724",
  "modified_by": "Administrator",
  "module": "Pasig Lgu Demo",
  "name": "Scholar Applications",
  "owner": "Administrator",
  "prepared_report": 0,
+ "query": "SELECT COUNT(email_address),status from `tabScholar Application` group by status order by status",
  "ref_doctype": "Scholar Application",
  "report_name": "Scholar Applications",
- "report_type": "Report Builder",
+ "report_type": "Query Report",
  "roles": [
   {
    "role": "System Manager"
